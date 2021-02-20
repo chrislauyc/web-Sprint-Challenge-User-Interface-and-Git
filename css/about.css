@@ -1,5 +1,5 @@
-.top-content .text-container {
-    width: 100%;
+.top-content .text-container, .bottom-content .text-container{
+    width: 95%;
 }
 .middle-content-container{
     display:flex;
@@ -11,6 +11,7 @@
 }
 .middle-content h2{
     padding:0;
+    margin-bottom: 15px;
 }
 .middle-content img{
     width:100%;
@@ -22,8 +23,5 @@
     padding:2% 4%;
     margin:4% 0;
     font-size:14px;
-}
-.middle-content-container *{
-    /* border:1px solid red; */
 }
 
