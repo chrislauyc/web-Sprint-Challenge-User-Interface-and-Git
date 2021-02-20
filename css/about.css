@@ -1,0 +1,27 @@
+.top-content .text-container, .bottom-content .text-container{
+    width: 95%;
+}
+.middle-content-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.middle-content{
+    width:45%;
+}
+.middle-content h2{
+    padding:0;
+    margin-bottom: 15px;
+}
+.middle-content img{
+    width:100%;
+}
+.middle-content button{
+    background-color: white;
+    border:1px solid black;
+    border-radius: 10px;
+    padding:2% 4%;
+    margin:4% 0;
+    font-size:14px;
+}
+
